@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/rm373batch5-21a.jpg');
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.dpimg {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.info {
+    text-align: center;
+    /* align-items: center; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 5rem; */
+}
+
+#name {
+    font-size: 3rem;
+}
+
+.title {
+    font-size: 1.2rem;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 15px;
+    height: 15px; */
+}
+
+#resumeicon {
+    width: 15px;
+    height: 15px;
+}
+
+#github {
+    margin: 20px 20px;
+    font-size: 3rem;
+
+}
+
+#github:hover {
+    filter: brightness(150%);
+}
+
+#linkedin {
+    margin: 20px 20px;
+    font-size: 3rem;
+}
+
+#linkedin:hover {
+    filter: brightness(150%);
+}
+
+#resumeicon {
+    margin: 20px 20px;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: transparent;
+}
+
+#resumeicon:hover {
+    filter: brightness(200%);
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: auto;
+    }
+}
